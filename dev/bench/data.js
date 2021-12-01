@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638335822822,
+  "lastUpdate": 1638335829418,
   "entries": {
     "Rust Benchmark": [
       {
@@ -32507,6 +32507,44 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 28.036,
             "range": "± 758",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "distinct": true,
+          "id": "5fc01f2fc0bf3456a7a37040524ed2a3f7d225f0",
+          "message": "add Project.toml",
+          "timestamp": "2021-12-01T13:16:22+08:00",
+          "tree_id": "290947dc1e93d878ff3c6c9e60a8c6f2397ed787",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/5fc01f2fc0bf3456a7a37040524ed2a3f7d225f0"
+        },
+        "date": 1638335827285,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 164,
+            "range": "± 4",
+            "unit": "ns",
+            "extra": "100 samples\n180 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 23.215,
+            "range": "± 318",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }
