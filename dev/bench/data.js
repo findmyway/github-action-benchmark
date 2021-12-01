@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638337607596,
+  "lastUpdate": 1638337611961,
   "entries": {
     "Rust Benchmark": [
       {
@@ -21963,6 +21963,44 @@ window.BENCHMARK_DATA = {
             "range": "±1.27%",
             "unit": "ops/sec",
             "extra": "86 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "distinct": true,
+          "id": "6862bc37837e9e01e9ed7732a260fdec742f45ea",
+          "message": "fix unit test",
+          "timestamp": "2021-12-01T13:46:13+08:00",
+          "tree_id": "27da86883b08d31afdc6589cb60a2ce839f6cdfc",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/6862bc37837e9e01e9ed7732a260fdec742f45ea"
+        },
+        "date": 1638337610031,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1044998,
+            "range": "±0.35%",
+            "unit": "ops/sec",
+            "extra": "97 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 8607,
+            "range": "±0.59%",
+            "unit": "ops/sec",
+            "extra": "95 samples"
           }
         ]
       }
