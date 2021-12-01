@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638337524034,
+  "lastUpdate": 1638337604785,
   "entries": {
     "Rust Benchmark": [
       {
@@ -31393,6 +31393,42 @@ window.BENCHMARK_DATA = {
             "value": 25723.21778137289,
             "unit": "ns/iter",
             "extra": "iterations: 27197\ncpu: 25722.02720888333 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "distinct": true,
+          "id": "6862bc37837e9e01e9ed7732a260fdec742f45ea",
+          "message": "fix unit test",
+          "timestamp": "2021-12-01T13:46:13+08:00",
+          "tree_id": "27da86883b08d31afdc6589cb60a2ce839f6cdfc",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/6862bc37837e9e01e9ed7732a260fdec742f45ea"
+        },
+        "date": 1638337602827,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 206.14015675465922,
+            "unit": "ns/iter",
+            "extra": "iterations: 3502671\ncpu: 206.13138830338335 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 27825.55774448486,
+            "unit": "ns/iter",
+            "extra": "iterations: 25431\ncpu: 27825.10561912626 ns\nthreads: 1"
           }
         ]
       }
