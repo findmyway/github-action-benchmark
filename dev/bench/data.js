@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638333764888,
+  "lastUpdate": 1638333767997,
   "entries": {
     "Rust Benchmark": [
       {
@@ -14211,6 +14211,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkFib20",
             "value": 50638,
+            "unit": "ns/op",
+            "extra": "30000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "distinct": true,
+          "id": "4429c86fdb759ed2680de28e2398df183af74830",
+          "message": "update CI",
+          "timestamp": "2021-12-01T12:42:13+08:00",
+          "tree_id": "10b0e1c88142034536929a5686673ea42e71a4d5",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/4429c86fdb759ed2680de28e2398df183af74830"
+        },
+        "date": 1638333766285,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 401,
+            "unit": "ns/op",
+            "extra": "5000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 51687,
             "unit": "ns/op",
             "extra": "30000 times\n2 procs"
           }
