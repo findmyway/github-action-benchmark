@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638335816276,
+  "lastUpdate": 1638335817064,
   "entries": {
     "Rust Benchmark": [
       {
@@ -26379,6 +26379,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003366627108058599",
             "extra": "mean: 2.8082850071090197 msec\nrounds: 422"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "distinct": true,
+          "id": "5fc01f2fc0bf3456a7a37040524ed2a3f7d225f0",
+          "message": "add Project.toml",
+          "timestamp": "2021-12-01T13:16:22+08:00",
+          "tree_id": "290947dc1e93d878ff3c6c9e60a8c6f2397ed787",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/5fc01f2fc0bf3456a7a37040524ed2a3f7d225f0"
+        },
+        "date": 1638335815231,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 43603.03804894805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016308428934696633",
+            "extra": "mean: 22.934181762229883 usec\nrounds: 27624"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 360.7682620969928,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003310090283637903",
+            "extra": "mean: 2.771862453164323 msec\nrounds: 395"
           }
         ]
       }
