@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638526432439,
+  "lastUpdate": 1638526439885,
   "entries": {
     "Rust Benchmark": [
       {
@@ -9034,6 +9034,42 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Iterative/21",
             "value": 6,
             "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "distinct": true,
+          "id": "1bbe85a6b1c164c9c792355104d0d55dabd92349",
+          "message": "fix lint",
+          "timestamp": "2021-12-03T18:12:31+08:00",
+          "tree_id": "3df506df6aeb6d93ef0eac70449dfa6173c627c2",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/1bbe85a6b1c164c9c792355104d0d55dabd92349"
+        },
+        "date": 1638526437925,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "bench_fib_10",
+            "value": 222,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bench_fib_20",
+            "value": 30085,
+            "range": "± 4143",
             "unit": "ns/iter"
           }
         ]
