@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638338533065,
+  "lastUpdate": 1638524468340,
   "entries": {
     "Rust Benchmark": [
       {
@@ -32429,6 +32429,42 @@ window.BENCHMARK_DATA = {
             "value": 30201.116782974794,
             "unit": "ns/iter",
             "extra": "iterations: 23214\ncpu: 30164.91621435341 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "find_my_way@foxmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "956740b7612764e600c17abdb4a73f9862726dea",
+          "message": "Apply suggestions from code review\n\nCo-authored-by: Chris Trześniewski <k.trzesniewski@gmail.com>",
+          "timestamp": "2021-12-03T17:40:41+08:00",
+          "tree_id": "72614bc7ca88db45ba2c605f9704b73c4b3143ff",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/956740b7612764e600c17abdb4a73f9862726dea"
+        },
+        "date": 1638524466268,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 196.2461295970959,
+            "unit": "ns/iter",
+            "extra": "iterations: 3764143\ncpu: 196.22405339010766 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 25593.591677554865,
+            "unit": "ns/iter",
+            "extra": "iterations: 25257\ncpu: 25591.627905135207 ns\nthreads: 1"
           }
         ]
       }
