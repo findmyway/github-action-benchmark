@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638527265436,
+  "lastUpdate": 1638527410487,
   "entries": {
     "Rust Benchmark": [
       {
@@ -9262,6 +9262,66 @@ window.BENCHMARK_DATA = {
             "name": "bench_fib_20",
             "value": 26992,
             "range": "± 7485",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "tianjun.cpp@gmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "distinct": true,
+          "id": "8c2d52342fc4bad15030a2d310693635c9d340d7",
+          "message": "add any type hint",
+          "timestamp": "2021-12-03T18:26:49+08:00",
+          "tree_id": "1b097515c63d20e3ba13ee187fa5383719251da6",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/8c2d52342fc4bad15030a2d310693635c9d340d7"
+        },
+        "date": 1638527408865,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 164,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 20773,
+            "range": "± 314",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 20750,
+            "range": "± 254",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 4,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 33756,
+            "range": "± 486",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 5,
+            "range": "± 0",
             "unit": "ns/iter"
           }
         ]
