@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638533614359,
+  "lastUpdate": 1638533615494,
   "entries": {
     "Rust Benchmark": [
       {
@@ -34211,6 +34211,42 @@ window.BENCHMARK_DATA = {
             "value": 24103.966477692968,
             "unit": "ns/iter",
             "extra": "iterations: 28399\ncpu: 24103.587379837318 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "find_my_way@foxmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3dcfbd8be5c3883d204889b9af31c4fa9e2d4554",
+          "message": "Update .github/workflows/ci.yml\n\nCo-authored-by: Chris Trześniewski <k.trzesniewski@gmail.com>",
+          "timestamp": "2021-12-03T20:13:04+08:00",
+          "tree_id": "f7e9efe8a202e0b5fcd366abe4c9995df5f8da7e",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/3dcfbd8be5c3883d204889b9af31c4fa9e2d4554"
+        },
+        "date": 1638533611508,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 215.3645970245689,
+            "unit": "ns/iter",
+            "extra": "iterations: 3263189\ncpu: 215.03925852900338 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 28494.896551724876,
+            "unit": "ns/iter",
+            "extra": "iterations: 24273\ncpu: 28488.034153174303 ns\nthreads: 1"
           }
         ]
       }
