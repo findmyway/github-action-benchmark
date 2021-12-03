@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638524475574,
+  "lastUpdate": 1638524476679,
   "entries": {
     "Rust Benchmark": [
       {
@@ -22703,6 +22703,44 @@ window.BENCHMARK_DATA = {
             "range": "±0.80%",
             "unit": "ops/sec",
             "extra": "89 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "find_my_way@foxmail.com",
+            "name": "Jun Tian",
+            "username": "findmyway"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "956740b7612764e600c17abdb4a73f9862726dea",
+          "message": "Apply suggestions from code review\n\nCo-authored-by: Chris Trześniewski <k.trzesniewski@gmail.com>",
+          "timestamp": "2021-12-03T17:40:41+08:00",
+          "tree_id": "72614bc7ca88db45ba2c605f9704b73c4b3143ff",
+          "url": "https://github.com/findmyway/github-action-benchmark/commit/956740b7612764e600c17abdb4a73f9862726dea"
+        },
+        "date": 1638524474493,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1094855,
+            "range": "±1.11%",
+            "unit": "ops/sec",
+            "extra": "85 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 9173,
+            "range": "±0.93%",
+            "unit": "ops/sec",
+            "extra": "86 samples"
           }
         ]
       }
